@@ -106,7 +106,7 @@ body {
 
 #site-header h1 {
 	margin: 0;
-	font-family: 'Fira Code';
+	font-family: 'Fira Code',bold;
 	margin-top: 11px;
 	font-size: 26px;
 	font-weight: 300;
