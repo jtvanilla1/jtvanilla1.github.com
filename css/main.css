@@ -466,6 +466,7 @@ ul.numbersList {
 }
 ul.numbersList li{
     border-right: 1px solid rgba(255, 255, 255, 0.5);
+	width: 150px;
 }
 ul.numbersList li:last-child{
     border: none;
@@ -473,6 +474,7 @@ ul.numbersList li:last-child{
 ul.numbersList h4{
     color: rgb(234, 234, 234);
     margin-bottom: 58px;
+	height: 20px;
 }
 ul.numbersList span{
     font-size: 62px;
@@ -687,6 +689,17 @@ input[type="submit"]:hover {
 }
 
 .linkedin-icon:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.github-icon {
+	padding: 10px 15px;
+	border: 1px solid #000;
+	background-color: #000;
+}
+
+.github-icon:hover {
 	background-color: transparent;
 	color: #fff;
 }
