@@ -110,7 +110,8 @@ body {
 	margin-top: 11px;
 	font-size: 26px;
 	font-weight: 300;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	padding-right: 0px;
 }
 
 #site-header h1 a:focus {
@@ -121,9 +122,6 @@ body {
 	color: #fff;
 }
 
-#site-header h1 a:hover {
-	text-decoration: none;
-}
 
 /*////////////////////////////////////////////////////////////////////////
 //  03 - Navigation
@@ -133,10 +131,11 @@ body {
 	border-radius: 0;
 	margin: 0;
 	border: none;
+	position: right;
 }
 
 .navbar-toggle {
-	padding: 0;
+	padding: 10px;
 	border: 0;
 	color: #fff;
 	margin-top: 13px;
@@ -146,18 +145,21 @@ body {
 	color: #fff;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	position: relative;
+	position: right;
 	transition: 0.5s background linear;
+	display:inline-block;
+	vertical-align: top;
 }
 
-/* .site-nav ul li a:hover {
+.site-nav ul li a:hover {
 	background: rgba(255, 255, 255, 0.11);
-} */
+}
 
 .site-nav ul li a:hover, .site-nav ul li a:focus
 {
 	background-color: rgba(0, 255, 255, 0.58);
 }
+
 
 /*////////////////////////////////////////////////////////////////////////
 //  04 - Blur styles
