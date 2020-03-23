@@ -107,7 +107,7 @@ body {
 #site-header h1 {
 	margin: 0;
 	font-family: 'Fira Code',bold;
-	margin-top: 22px;
+	margin-top: 0px;
 	font-size: 26px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -142,14 +142,13 @@ body {
 	border: 0;
 	color: #fff;
 	margin-top: 13px;
-	position: left;
 }
 
 .site-nav ul li a {
 	color: #fff;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	position: right;
+	
 	transition: 0.5s background linear;
 	display:inline-block;
 	vertical-align: top;
