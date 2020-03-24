@@ -188,6 +188,7 @@ body {
 	/* background-color: rgba(9, 20, 39, 0.83); */
 	/* background-color: rgba(24, 77, 77, 0.93); */
 	background-color: rgba(33, 103, 88, 0.9);
+	
 }
 
 .overlay {
@@ -567,11 +568,12 @@ ul.numbersList span{
 }
 
 .contact-info {
-    padding: 16px 62px;
-    text-align: left;
+    padding: 10px;
     font-size: 18px;
     line-height: 36px;
     margin-top: 25px;
+	align-content: right;
+	padding-left: 350px;
 }
 .
 .contact-info i {
