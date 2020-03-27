@@ -97,9 +97,7 @@ body {
 #site-header {
 	position: fixed;
 	width: 100%;
-	/* background-color: #35405f; */
 	background-color: rgba(144, 146, 153, 0.94);
-	/* background-color: rgba(32, 178, 170, 0.86); */
 	padding: 0 30px;
 	z-index: 100;
 }
@@ -118,7 +116,7 @@ body {
     text-decoration: none;
 }
 
-#site-header h1 a:hover{
+#site-header h1 fa:hover{
     text-decoration: none;
 }
 
@@ -148,7 +146,6 @@ body {
 	color: #fff;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	
 	transition: 0.5s background linear;
 	display:inline-block;
 	vertical-align: top;
@@ -209,10 +206,7 @@ body {
 .pro-name {
     font-size: 100px;
     margin: 0;
-    margin-bottom: 15px;  
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    /* font-family: 'Niconne', cursive; */
+    margin-bottom: 15px;
     font-weight: 400;
     font-family: 'Fira Code';
     line-height: 90px;
