@@ -568,7 +568,6 @@ ul.numbersList span{
     margin-top: 25px;
 	padding-left: 350px;
 }
-.
 .contact-info i {
     width: 40px;
 	height: 40px;
@@ -737,20 +736,6 @@ input[type="submit"]:hover {
     transform: rotate(-45deg);
     /* text-align: center; */
     position: absolute;
-}
-
-.rotated-icon {
-    position: relative;
-    display: inline-block;
-    float: left;
-    width: 50px;
-}
-
-.rotated-icon i {
-    position: absolute;
-    top: 1.3rem;
-    left: 1.5rem;
-    font-size: 22px;
 }
 
 i.fa.fa-envelope-o {
