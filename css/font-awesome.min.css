@@ -21,27 +21,6 @@
     transform: translate(0, 0)
 }
 
-.fa .tooltip {
-    visibility: hidden;
-    width: 120px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.fa:hover .tooltip{
-    visibility: visible;
-  }
-
 .fa-lg {
     font-size: 1.33333333em;
     line-height: .75em;
