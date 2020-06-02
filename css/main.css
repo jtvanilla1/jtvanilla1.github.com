@@ -568,7 +568,8 @@ ul.numbersList span{
     margin-top: 25px;
 	padding-left: 350px;
 }
-.
+
+. /* Strangely enough, this following period needs to be here; remove it and the styling breaks */
 .contact-info i {
     width: 40px;
 	height: 40px;
