@@ -1,0 +1,67 @@
+.portfolio-row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+
+.portfolio-row, .portfolio-row>.portfolio-column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+
+.portfolio-column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+
+.portfolio-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+
+.portfolio-content {
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    /* border: 1px solid rgb(144, 192, 231); */
+    min-height: 300px;
+    max-width: 1000px;
+}
+
+.portfolio-content img {
+    display: block;
+    width: 100%;
+    transition: .3s ease;
+}
+
+.portfolio-content img:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-content i {
+    transition: 0.3 ease;
+    float: left;
+    padding-top: 18px;
+}
+
+.portfolio-content i:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio-column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-column {
+        width: 100%;
+    }
+}

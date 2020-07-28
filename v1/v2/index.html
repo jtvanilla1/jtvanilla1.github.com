@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+
+<!-- styles -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css" />
+<link rel="stylesheet" href="styles/main.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/navbar.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/modal.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/contact.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/home.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/portfolio.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+
+<!-- scripts -->
+<script src="https://kit.fontawesome.com/5451538f91.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#home").modal("show");
+    });
+</script>
+<!-- Head -->
+
+<head>
+    <title>Josiah Manning</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<!-- Body-->
+
+<body>
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand" data-toggle="modal" data-target="#home">Josiah Manning</a>
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+
+        <!-- mobile navbar view -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#home">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end of collapse -->
+
+
+    </div>
+    <!-- end of navbar -->
+
+    <!-- background video -->
+    <video autoplay muted loop id="backgroundVideo">
+      <source src="img/bg/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- home -->
+    <!-- bootstrap modal -->
+    <div id="home" class="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Professional Summary</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <!-- modal body -->
+                    <p>
+                        I'm a junior full-stack developer with a wide variety of experience and familiarites, and I'm passionate about working on a team and learning new things.<br />
+                        <br /> My tech stack includes:
+                    </p>
+                    <ul class="tech-stack-list">
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>MySQL with phpMyAdmin</li>
+                        <li>Java with NetBeans</li>
+                        <li>Dart with Flutter</li>
+                        <li>Android Development</li>
+                        <li>HTML/CSS/JavaScript with Bootstrap</li>
+                        <li>RESTful Services</li>
+                        <li>Relational Databases</li>
+                        <li>MS Office</li>
+                    </ul>
+                    <p>Thank you for visiting!</p>
+                    <!-- modal body -->
+                </div>
+                <!-- end .modal-body> -->
+            </div>
+            <!-- end .modal-content> -->
+        </div>
+        <!-- end .modal-dialog> -->
+    </div>
+    <!-- end .modal> -->
+
+    <!-- portfolio -->
+    <!-- bootstrap modal -->
+    <div id="portfolio" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recent Projects</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <!-- modal body -->
+
+                    <!-- CSCI WEBSITE -->
+                    <div class="portfolio-row">
+                        <div class="portfolio-column">
+                            <div class="portfolio-content">
+                                <a class="portfolio-btn" href="https://drive.google.com/open?id=1DYHgoZ0O5Fhi3OVgLcy6eSK1DDyepygg" target="_blank">
+                                    <img src="img/csciwebsite.jpg" alt="CSCI website" />
+                                </a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      CSCI Department Website
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- ALTERNITY -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/open?id=1SKnoFloQq0VOGb68xLxxwTAZgvTh9IWG"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/alternity.jpg" alt="Alternity"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      RPG Calculator
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- TWITTER DATA MINER -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/open?id=1tLTLSGZfMAmZJElIIQ-j3ypWiW7aJZg5"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/twitter.jpg" alt="Twitter data miner"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      Twitter Data Miner
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- YATZEE -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/open?id=1DRYiRCmsmgDzHKedaT_3NTtrKcrTZtSG"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/yatzee.jpg" alt="Yatzee"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      Yatzee
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- MOVIE TRAILER APP -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/file/d/1FH-8Y05G-7PfFMhbLtn9KCQBPdjLehEE/view?usp=sharing"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/trailer.jpg" alt="Movie Trailer App"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      RPG Calculator
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- BLACKJACK -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/open?id=1hUUGY8vgR-y2FgG33b6zwaHqXicywLxk"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/blackjack.jpg" alt="Blackjack"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      Blackjack
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- TIC-TAC-TOE AI -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a
+                    href="https://drive.google.com/open?id=1BdNVXX7HTBP_Zn7xWyE-VPaDNF8D1WOv"
+                    class="portfolio-btn"
+                    target="_blank"
+                    ><img src="img/tictactoe.jpg" alt="TicTacToeAI"
+                  /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      Tic-Tac-Toe AI
+                    </h3></a
+                  >
+                </div>
+              </div>
+
+              <!-- PERSONAL WEBSITE -->
+              <div class="portfolio-column">
+                <div class="portfolio-content">
+                  <a href=""><img src="img/website.jpg" alt="Website" /></a>
+                                <a class="github-icon" href="https://github.com/jtvanilla1"><i class="fa fa-github fa-2x"></i>
+                    <h3>
+                      Personal Website
+                    </h3></a
+                  >
+                </div>
+              </div>
+              <!-- END GRID -->
+            </div>
+
+            <!-- modal body -->
+          </div>
+        </div>
+        <!-- end .modal-content> -->
+      </div>
+      <!-- end .modal-dialog> -->
+    </div>
+    <!-- end .modal> -->
+
+    <!-- resume -->
+    <!-- bootstrap modal -->
+    <div id="resume" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Resume</h5>
+            <a href="docs/JosiahManningResume2020.pdf" target="_blank" download
+              ><br />Click here to download pdf</a
+            >
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- modal body -->
+            <iframe
+              src="https://drive.google.com/file/d/1VHgdZ8SQidBRo4EtiE1pW8WG8TngpIic/preview"
+              width="90%"
+              height="720"
+            ></iframe>
+            <!-- modal body -->
+          </div>
+          <!-- end .modal-footer> -->
+        </div>
+        <!-- end .modal-content> -->
+      </div>
+      <!-- end .modal-dialog> -->
+    </div>
+    <!-- end .modal> -->
+
+    <!-- contact -->
+    <!-- bootstrap modal -->
+    <div id="contact" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Contact</h1>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- modal body -->
+            <div class="contact-modal-body">
+              <div
+                class="LI-profile-badge"
+                data-version="v1"
+                data-size="medium"
+                data-locale="en_US"
+                data-type="vertical"
+                data-theme="dark"
+                data-vanity="josiah-manning"
+              >
+                <a
+                  class="LI-simple-link"
+                  href="https://www.linkedin.com/in/josiah-manning?trk=profile-badge"
+                  >Josiah Manning</a
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <ul>
+                <li>
+                  <p><strong>Location:</strong></p>
+                </li>
+                <li>
+                  <p><strong>Cell:</strong></p>
+                </li>
+                <li>
+                  <p><strong>Email:</strong></p>
+                </li>
+                <li>
+                  <p>Portland Metro Area, OR</p>
+                </li>
+                <li>
+                  <p>(562) 298-7901</p>
+                </li>
+                <li>
+                  <p>josiah.t.manning@biola.edu</p>
+                </li>
+              </ul>
+          </div>
+          <!-- modal body -->
+          
+        </div>
+        <!-- end .modal-footer> -->
+      </div>
+      <!-- end .modal-content> -->
+    </div>
+    <!-- end .modal-dialog> -->
+  </div>
+  <!-- end .modal> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
