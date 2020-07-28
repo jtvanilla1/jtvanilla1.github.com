@@ -1,0 +1,37 @@
+/* navbar styling */
+
+.navbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px !important;
+    padding-left: 15px;
+}
+
+
+/* navbar list items */
+
+.nav-item {
+    font-family: 'Roboto Slab', serif !important;
+    color: rgb(144, 192, 231);
+    border: 0;
+    transition: 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    background-color: rgb(144, 192, 231);
+    color: black;
+}
+
+.navbar-nav {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.contact-info ul {
+    padding-top: 20px;
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.contact-modal-body {
+    text-align: center;
+    justify-content: center;
+}
+
+.facebook-icon {
+    color: rgb(59, 89, 152);
+}
+
+.github-icon {
+    color: white;
+}
+
+.twitter-icon {
+    color: rgb(0, 172, 238);
+}
+
+.linkedin-icon {
+    color: rgb(14, 118, 168);
+}

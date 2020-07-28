@@ -1,0 +1,30 @@
+.modal {
+    padding-top: 80px;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color: rgb(144, 192, 231);
+}
+
+.modal-title {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    opacity: 1 !important;
+}
+
+.modal-lg {
+    max-width: 100% !important;
+    width: 80% !important;
+}
+
+.modal-backdrop {
+    opacity: 0.3 !important;
+}
+
+.close {
+    opacity: 1 !important;
+    color: white !important;
+    text-shadow: none !important;
+}
